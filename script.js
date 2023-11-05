@@ -12,7 +12,16 @@ document.addEventListener('DOMContentLoaded', function () {
             alert('Please enter a location');
             return;
         }
-
+    // Check if the location is Delhi
+    if (location.toLowerCase() !== 'delhi') {
+        alert('Weather is only available for Delhi.');
+        return;
+      }
+      //check if location is Delhi
+      if (location !== 'delhi') {
+        alert('Weather is only available for Delhi.');
+        return;
+      } 
         //  API key
         const apiKey = 'aa427572b4e45c1f1eb239a4c58fa59f';
         const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=${unit}&appid=${apiKey}`;
@@ -52,3 +61,4 @@ document.addEventListener('DOMContentLoaded', function () {
             });
     });
 });
+
