@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
     // Check if the location is Delhi
-    if (location.toLowerCase() !== 'delhi') {
+    if (location.toLowerCase() !== 'Delhi') {
         alert('Weather is only available for Delhi.');
         return;
       }
