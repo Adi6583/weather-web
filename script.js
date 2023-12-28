@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
             alert('Please enter a location');
             return;
         }
-    // Check if the location is Delhi
       } 
         //  API key
         const apiKey = 'aa427572b4e45c1f1eb239a4c58fa59f';
