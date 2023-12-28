@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
       }
       //check if location is Delhi
-      if (location !== 'delhi') {
+      if (location !== 'Delhi') {
         alert('Weather is only available for Delhi.');
         return;
       } 
