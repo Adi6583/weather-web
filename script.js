@@ -13,14 +13,6 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
     // Check if the location is Delhi
-    if (location.toUpperCase() !== 'Delhi') {
-        alert('Weather is only available for Delhi.');
-        return;
-      }
-      //check if location is Delhi
-      if (location !== 'Delhi') {
-        alert('Weather is only available for Delhi.');
-        return;
       } 
         //  API key
         const apiKey = 'aa427572b4e45c1f1eb239a4c58fa59f';
